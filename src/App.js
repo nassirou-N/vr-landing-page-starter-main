@@ -6,6 +6,7 @@ import Header from './components/Header';
 import NavMobile from './components/NavMobile';
 import Experience from './components/Experience';
 import Video from './components/Video';
+import Headsets from './components/Headsets';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
     {/**experience */}
     <Experience />
     <Video />
+    <Headsets />
   </div>;
 };
 
