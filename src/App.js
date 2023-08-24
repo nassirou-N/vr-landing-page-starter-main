@@ -9,6 +9,7 @@ import Video from './components/Video';
 import Headsets from './components/Headsets';
 import Testimonial from './components/Testimonial';
 import Explore from './components/Explore';
+import Footer from './components/Footer';
 /**scrol animate on aos */
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -28,7 +29,8 @@ const App = () => {
   });
 
 
-  return <div className='relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before:-top-16 before:left-[600px] before:hidden before:lg:flex '>
+  return(
+  <div className='relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before:-top-16 before:left-[600px] before:hidden before:lg:flex '>
     <Header handelMobile = {handelMobile} navMob={navMob} />
     <Banner />
     {/**mobile nav */}
@@ -41,7 +43,8 @@ const App = () => {
     <Headsets />
     <Testimonial />
     <Explore />
-  </div>;
+    <Footer />
+  </div>);
 };
 
 export default App;
