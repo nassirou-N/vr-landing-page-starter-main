@@ -44,7 +44,7 @@ const Headsets = () => {
           
         </div>
 
-        <div className='relative' data-aos='zoom-in' data-aos-offset="300" data-aos-delay='19 00'>
+        <div className='relative' data-aos='zoom-in' data-aos-offset="300" data-aos-delay='1900'>
           <img src={Headset4} alt=''/>
           <div className='absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
             <h4 className='fonts-semibold text-xl mb-2'>AIoT</h4>
