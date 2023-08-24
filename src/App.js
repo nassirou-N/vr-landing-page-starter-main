@@ -5,6 +5,8 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import NavMobile from './components/NavMobile';
 import Experience from './components/Experience';
+import Video from './components/Video';
+
 
 const App = () => {
   const [navMob, setNavMob] = useState(false);
@@ -20,6 +22,7 @@ const App = () => {
     </div>
     {/**experience */}
     <Experience />
+    <Video />
   </div>;
 };
 
