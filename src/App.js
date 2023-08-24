@@ -7,6 +7,7 @@ import NavMobile from './components/NavMobile';
 import Experience from './components/Experience';
 import Video from './components/Video';
 import Headsets from './components/Headsets';
+import Testimonial from './components/Testimonial';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
     <Experience />
     <Video />
     <Headsets />
+    <Testimonial />
   </div>;
 };
 
